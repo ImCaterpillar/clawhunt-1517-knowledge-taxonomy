@@ -1,0 +1,21 @@
+{
+  "entry_id": "kb-ev-fingerprint-07",
+  "knowledge_type": "evidence",
+  "title": "#1503 交付指纹验证记录",
+  "status": "published",
+  "domain": "it_ops",
+  "owner_role": "delivery-lead",
+  "summary": "交付物逐文件 sha256 与远程一致性核验（证据型条目）。",
+  "tags": ["evidence", "sha256", "verification"],
+  "created_at": "2026-10-22",
+  "version": 1,
+  "source_trace": {
+    "origin": "internal_project",
+    "provenance": [
+      { "source_id": "prj-1503", "reference": "#1503 交付指纹核验记录",
+        "accessed_at": "2026-10-22",
+        "excerpt": "15/15 sha256 matched, zip PK header" }
+    ],
+    "classification_reason": "真实交付核验快照，可追溯"
+  }
+}
