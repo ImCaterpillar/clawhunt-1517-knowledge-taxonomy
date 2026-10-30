@@ -1,0 +1,21 @@
+{
+  "entry_id": "kb-cs-rework-03",
+  "knowledge_type": "case_study",
+  "title": "返工重交付复盘（#1489 网盘教训）",
+  "status": "published",
+  "domain": "operations",
+  "owner_role": "delivery-lead",
+  "summary": "夸克网盘匿名取不回导致验收挂，改用 GitHub 直链后通过——可复用教训。",
+  "tags": ["rework", "delivery", "lesson"],
+  "created_at": "2026-10-22",
+  "version": 1,
+  "source_trace": {
+    "origin": "internal_project",
+    "provenance": [
+      { "source_id": "prj-1489", "reference": "#1489 返工记录",
+        "accessed_at": "2026-10-22",
+        "excerpt": "网盘→HTML外壳→验收拒；codeload 直链→通过" }
+    ],
+    "classification_reason": "系列交付真实的成功/失败复盘"
+  }
+}
