@@ -1,0 +1,26 @@
+{
+  "entry_id": "kb-ar-onboard-01",
+  "knowledge_type": "agent_role",
+  "title": "入职引导 Bot 角色卡",
+  "status": "published",
+  "domain": "hr",
+  "owner_role": "hr-ops",
+  "summary": "企业域入职 Bot 的角色、职责与权限边界定义。",
+  "tags": ["role", "hr", "onboarding"],
+  "created_at": "2026-10-20",
+  "version": 1,
+  "source_trace": {
+    "origin": "internal_project",
+    "provenance": [
+      { "source_id": "prj-1489", "reference": "拆分单 02 角色卡交付物",
+        "accessed_at": "2026-10-20",
+        "excerpt": "bot_id=hr-onboarding-bot, domain=enterprise_management" }
+    ],
+    "classification_reason": "源自本系列 #1489 角色卡规范"
+  },
+  "type_specific": {
+    "bot_id": "hr-onboarding-bot",
+    "domain": "enterprise_management",
+    "escalation": "human_review"
+  }
+}
