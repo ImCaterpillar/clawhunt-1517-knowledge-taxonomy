@@ -1,0 +1,21 @@
+{
+  "entry_id": "kb-fq-codeload-08",
+  "knowledge_type": "faq",
+  "title": "交付链接用哪个？",
+  "status": "published",
+  "domain": "operations",
+  "owner_role": "delivery-lead",
+  "summary": "问答：交付渠道唯一硬判据 = 匿名 curl 能拿到真实文件字节。",
+  "tags": ["faq", "delivery", "codeload"],
+  "created_at": "2026-10-22",
+  "version": 1,
+  "source_trace": {
+    "origin": "internal_project",
+    "provenance": [
+      { "source_id": "prj-1489", "reference": "#1489 渠道教训",
+        "accessed_at": "2026-10-22",
+        "excerpt": "匿名 curl -L 拿到真 zip 才算可交付" }
+    ],
+    "classification_reason": "FAQ 答案有系列实证支撑"
+  }
+}
