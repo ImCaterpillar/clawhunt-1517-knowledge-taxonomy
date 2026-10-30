@@ -1,0 +1,21 @@
+{
+  "entry_id": "kb-tp-checklist-04",
+  "knowledge_type": "template",
+  "title": "交付验收清单模板",
+  "status": "published",
+  "domain": "operations",
+  "owner_role": "delivery-lead",
+  "summary": "可复用的交付验收检查清单（三件事：核心路径/示例/验证命令）。",
+  "tags": ["template", "delivery", "checklist"],
+  "created_at": "2026-10-22",
+  "version": 1,
+  "source_trace": {
+    "origin": "internal_project",
+    "provenance": [
+      { "source_id": "prj-series", "reference": "系列交付三件事清单",
+        "accessed_at": "2026-10-22",
+        "excerpt": "核心实现路径 / 示例路径 / 验证命令+预期输出" }
+    ],
+    "classification_reason": "系列交付沉淀的模板范本"
+  }
+}
