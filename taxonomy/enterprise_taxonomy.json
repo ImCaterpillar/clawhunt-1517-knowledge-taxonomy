@@ -1,0 +1,77 @@
+{
+  "taxonomy_name": "enterprise_knowledge_taxonomy_v1",
+  "version": "1.0",
+  "description": "企业知识库八类分类法：覆盖企业 Agent 系统系列 50 单沉淀的典型知识形态",
+  "classification_dimensions": ["knowledge_type", "domain", "lifecycle_stage"],
+  "categories": [
+    {
+      "id": "agent_role",
+      "name": "角色规范",
+      "code": "AR",
+      "description": "Bot 身份、职责、权限边界与升级策略的结构化定义",
+      "related_deliverable": "拆分单 02（#1489 角色卡）",
+      "required_metadata": ["bot_id", "domain", "escalation"]
+    },
+    {
+      "id": "methodology",
+      "name": "流程方法论",
+      "code": "ME",
+      "description": "可执行的流程/步骤类知识（Scrum、5W2H、PDCA 等）",
+      "related_deliverable": "拆分单 21（#1508 方法论知识接线）",
+      "required_metadata": ["methodology", "topic", "steps"]
+    },
+    {
+      "id": "case_study",
+      "name": "案例复盘",
+      "code": "CS",
+      "description": "既往项目/故障/成功案例的结构化复盘",
+      "related_deliverable": "拆分单（案例库知识接线）",
+      "required_metadata": ["scenario", "action", "result"]
+    },
+    {
+      "id": "template",
+      "name": "模板范本",
+      "code": "TP",
+      "description": "可复用文档/配置模板（交付清单、验收对照、评审包等）",
+      "related_deliverable": "拆分单（FDE 交付手册）",
+      "required_metadata": ["template_type", "usage_scope"]
+    },
+    {
+      "id": "standard",
+      "name": "标准规范",
+      "code": "ST",
+      "description": "必须遵守的内部规范与合规要求（数据脱敏、授权使用等）",
+      "related_deliverable": "拆分单（合规边界）",
+      "required_metadata": ["standard_id", "effective_date", "enforcement"]
+    },
+    {
+      "id": "reference_data",
+      "name": "参考数据",
+      "code": "RD",
+      "description": "结构化数据集/映射表/索引（行业枚举、字段口径等）",
+      "related_deliverable": "拆分单（数据类）",
+      "required_metadata": ["data_set", "schema_ref", "refresh_policy"]
+    },
+    {
+      "id": "evidence",
+      "name": "证据台账",
+      "code": "EV",
+      "description": "可追溯的验证记录与执行证据（测试输出、核验快照）",
+      "related_deliverable": "拆分单（证据台账 #1523）",
+      "required_metadata": ["evidence_id", "trace_hash", "created_at"]
+    },
+    {
+      "id": "faq",
+      "name": "FAQ 问答",
+      "code": "FQ",
+      "description": "高频问题与标准答复对",
+      "related_deliverable": "整合性知识（随系列沉淀）",
+      "required_metadata": ["question", "answer", "owner_role"]
+    }
+  ],
+  "usage_notes": [
+    "每条知识必须且只能归入一个 knowledge_type 类别",
+    "元数据来源可追踪：cited_sources / evidence 需带来源引用",
+    "八类覆盖角色、流程、案例、模板、标准、数据、证据、问答八大企业知识形态"
+  ]
+}
