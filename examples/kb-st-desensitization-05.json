@@ -1,0 +1,21 @@
+{
+  "entry_id": "kb-st-desensitization-05",
+  "knowledge_type": "standard",
+  "title": "交付物脱敏标准",
+  "status": "published",
+  "domain": "compliance",
+  "owner_role": "compliance-owner",
+  "summary": "交付物必须通过敏感信息扫描（手机/邮箱/密钥/本机路径零命中）。",
+  "tags": ["standard", "compliance", "desensitization"],
+  "created_at": "2026-10-22",
+  "version": 1,
+  "source_trace": {
+    "origin": "internal_project",
+    "provenance": [
+      { "source_id": "prj-scan", "reference": "交付前敏感扫描实践",
+        "accessed_at": "2026-10-22",
+        "excerpt": "扫描模式：手机/邮箱/sk/token/本机路径" }
+    ],
+    "classification_reason": "本团队交付红线标准"
+  }
+}
