@@ -1,0 +1,21 @@
+{
+  "entry_id": "kb-rd-industry-enum-06",
+  "knowledge_type": "reference_data",
+  "title": "八类知识分类行业枚举",
+  "status": "published",
+  "domain": "operations",
+  "owner_role": "delivery-lead",
+  "summary": "八类 taxonomy 与业务域枚举的权威取值（供各拆分单引用一致性）。",
+  "tags": ["reference", "enum", "taxonomy"],
+  "created_at": "2026-10-22",
+  "version": 1,
+  "source_trace": {
+    "origin": "internal_project",
+    "provenance": [
+      { "source_id": "tax-v1", "reference": "enterprise_taxonomy.json v1",
+        "accessed_at": "2026-10-22",
+        "excerpt": "八类：agent_role/methodology/case_study/template/standard/reference_data/evidence/faq" }
+    ],
+    "classification_reason": "参考数据，source=分类法本文件"
+  }
+}
