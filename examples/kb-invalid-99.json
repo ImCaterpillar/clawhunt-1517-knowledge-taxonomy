@@ -1,0 +1,15 @@
+{
+  "entry_id": "kb-invalid-99",
+  "knowledge_type": "unknown_type",
+  "title": "非法条目",
+  "status": "draft",
+  "owner_role": "xx",
+  "summary": "这个条目故意违规：类型不在八类、来源缺失、缺少必填、额外字段。",
+  "created_at": "2026-10-30",
+  "extra_not_allowed": true,
+  "source_trace": {
+    "origin": "customer_material",
+    "provenance": [],
+    "classification_reason": ""
+  }
+}
